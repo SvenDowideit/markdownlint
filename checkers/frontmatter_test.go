@@ -3,8 +3,8 @@ package checkers
 import (
 	"testing"
 
-	"github.com/docker/markdownlint/data"
-	"github.com/docker/markdownlint/linereader"
+	"github.com/SvenDowideit/markdownlint/data"
+	"github.com/SvenDowideit/markdownlint/linereader"
 )
 
 // NOTE: this has some spaces and tabs as well as newlines at the start. this is intentional

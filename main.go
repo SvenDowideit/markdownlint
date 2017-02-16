@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/markdownlint/checkers"
-	"github.com/docker/markdownlint/data"
-	"github.com/docker/markdownlint/linereader"
+	"github.com/SvenDowideit/markdownlint/checkers"
+	"github.com/SvenDowideit/markdownlint/data"
+	"github.com/SvenDowideit/markdownlint/linereader"
 )
 
 func main() {

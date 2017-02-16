@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/markdownlint/data"
-	"github.com/docker/markdownlint/linereader"
+	"github.com/SvenDowideit/markdownlint/data"
+	"github.com/SvenDowideit/markdownlint/linereader"
 
 	"github.com/miekg/mmark"
 )
@@ -30,7 +30,7 @@ var skipUrls = map[string]int{
 	"https://godoc.org/golang.org/x/crypto/ssh":                                    1,
 	"https://letsencrypt.org/how-it-works/":                                        1,
 	"https://cloud.google.com/compute/docs/disks/persistent-disks":                 1,
-	"https://godoc.org/github.com/docker/distribution/notifications#RequestRecord": 1,
+	"https://godoc.org/github.com/SvenDowideit/distribution/notifications#RequestRecord": 1,
 	"https://support.docker.com":                                                   1,
 	"https://www.weave.works/docs/net/latest/introducing-weave/":                   1,
 }

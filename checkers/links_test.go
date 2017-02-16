@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/markdownlint/data"
+	"github.com/SvenDowideit/markdownlint/data"
 	"github.com/miekg/mmark"
 )
 
